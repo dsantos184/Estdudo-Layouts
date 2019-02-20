@@ -1,0 +1,7 @@
+.container-header
+{
+    height: 750px;
+    background-image: url('../../img/img-header.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}

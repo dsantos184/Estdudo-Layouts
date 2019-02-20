@@ -1,0 +1,57 @@
+.section-produtos
+{
+    text-align: center;
+}
+
+.titlesecond
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--color-negaive);
+}
+
+.subtitle
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-negative);
+    display: block;
+}
+
+.containerprodutos
+{
+    width: 360px;
+    height: 530px;
+    background-color: var(--color-zero);
+    overflow: hidden;
+    position: relative;
+}
+
+.titleProdutos
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 24px;
+    float: left;
+}
+
+.titleProdutosOrange
+{
+    color: var(--color-orange);
+}
+
+
+.titleProdutosBlue
+{
+    color: var(--color-blue);
+}
+
+.imgProduto
+{
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    right:-30px;
+}
+
+

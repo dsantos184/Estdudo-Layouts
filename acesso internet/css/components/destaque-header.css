@@ -1,0 +1,16 @@
+.destaque-header
+{
+    display: inline-block;
+    margin-left: var(--space-left);
+    margin-top: 193px;
+}
+
+.destaque-header h1, .destaque-header p
+{
+    margin-top: 10px;
+} 
+
+.destaque-header .subtitle
+{
+    margin: 20px 0 30px 0;
+}
