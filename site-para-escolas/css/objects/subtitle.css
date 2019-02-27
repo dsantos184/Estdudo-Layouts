@@ -1,0 +1,15 @@
+.subtitle
+{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.subtitle::after
+{
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #018dd5;
+    display: block;
+}

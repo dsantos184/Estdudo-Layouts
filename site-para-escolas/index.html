@@ -8,7 +8,11 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
         <link rel="stylesheet" href="css/generic/reset.css">
         <link rel="stylesheet" href="css/base/base.css">
+        <link rel="stylesheet" href="css/objects/btn.css">
+        <link rel="stylesheet" href="css/objects/subtitle.css">
         <link rel="stylesheet" href="css/components/container-cabecalho.css">
+        <link rel="stylesheet" href="css/components/container-sections.css">
+        <link rel="stylesheet" href="css/components/container-frases.css">
     </head>
     <body>
         <header class="container-cabecalho">
@@ -19,15 +23,73 @@
 
             <nav class="menu">
                 <a href="index.html" class="action">Home</a>
-                <a href="sobre.html" class="action">Sobre</a>
-                <a href="contato.html" class="action">Contato</a>
+                <a href="#sobre" class="action">Sobre</a>
+                <a href="#contato" class="action">Contato</a>
             </nav>
 
             <section class="boxheader">
-                <h1>Escola da Tia Cotinha</h1>
-                <span>Mussum Ipsum, cacilds vidis litro abertis</span>
-                <a href="">Saiba Mais</a>
-                <a href="">Contato</a>
+                
+                <div class="detaqueHeader">
+                    <h1 class="titleHeader">Escola da Tia Cotinha</h1>
+                    <span class="descHeader">Mussum Ipsum, cacilds vidis litro abertis</span>
+                    <a href="#sobre" class="btn btn-saibamais">Saiba Mais</a>
+                    <a href="#contato" class="btn btn-contato">Contato</a>
+                </div>
+
+            </section>
+
+            <section id="sobre" class="container-sections">
+            
+                <div class="articles">
+                    <h2 class="subtitle">Sobre</h2>
+                    
+                    <article class="article sobre">
+                        <h2>Missão</h2>
+                        <p>
+                            Mussum Ipsum, cacilds vidis litro abertis.
+                            Viva Forevis aptent taciti sociosqu ad litora torquent.
+                            Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. 
+                            Aenean sit amet nisi. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. 
+                            Suco de cevadiss deixa as pessoas mais interessantis. 
+                        </p>
+                    </article>
+
+                    <article class="article visao">
+                        <h2>Visão</h2>
+                        <p>
+                            Mussum Ipsum, cacilds vidis litro abertis.
+                            Viva Forevis aptent taciti sociosqu ad litora torquent.
+                            Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. 
+                            Aenean sit amet nisi. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. 
+                            Suco de cevadiss deixa as pessoas mais interessantis. 
+                        </p>
+                    </article>
+
+                    <article class="article valores">
+                        <p>
+                            <h2>Valores</h2>
+                            Mussum Ipsum, cacilds vidis litro abertis.
+                            Viva Forevis aptent taciti sociosqu ad litora torquent.
+                            Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. 
+                            Aenean sit amet nisi. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. 
+                            Suco de cevadiss deixa as pessoas mais interessantis. 
+                        </p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="container-frases">
+                <p> 
+                    Mussum Ipsum, cacilds vidis litro abertis.
+                    Viva Forevis aptent taciti sociosqu ad litora torquent.
+                </p>
+            </section>
+
+
+            <section id="contato" class="container-contato">
+                
             </section>
         </header>
     </body>
