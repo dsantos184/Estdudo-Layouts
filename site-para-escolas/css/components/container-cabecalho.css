@@ -8,6 +8,7 @@
     position: fixed;
     width: 100%;
     background: #FFF;
+    border-bottom: 1px solid #E9E9E9;
 }
 
 .container-cabecalho  .logo
