@@ -1,3 +1,10 @@
+.form-contato
+{
+    width: 61%;
+    float: left;
+    margin-right: 25px;
+}
+
 .row > .colum
 {
     width: 320px;
@@ -10,4 +17,5 @@
 .form-contato .btn-contato
 {
     float: right;
+    margin-top: 0px !important;
 }

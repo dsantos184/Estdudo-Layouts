@@ -1,9 +1,16 @@
 .container-cabecalho
 {
-    height: 100px;
+    display: inline;
 }
 
-.container-cabecalho > .logo
+.container-cabecalho > .barra-nav
+{
+    position: fixed;
+    width: 100%;
+    background: #FFF;
+}
+
+.container-cabecalho  .logo
 {
     width: 160px;
     height: 60px;
@@ -15,7 +22,7 @@
     float: left;
 }
 
-.container-cabecalho > .menu
+.container-cabecalho  .menu
 {
     height: 60px;
     padding: 0 15px;
@@ -24,13 +31,13 @@
     align-items: center;
 }
 
-.container-cabecalho > .menu > .action
+.container-cabecalho  .menu > .action
 {
     text-transform: uppercase;
     color: #333;
 }
 
-.container-cabecalho > .menu > .action:not(:last-child)
+.container-cabecalho  .menu > .action:not(:last-child)
 {
     margin-right: 2%;
 }
