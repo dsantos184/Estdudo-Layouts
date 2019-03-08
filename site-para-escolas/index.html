@@ -10,9 +10,12 @@
         <link rel="stylesheet" href="css/base/base.css">
         <link rel="stylesheet" href="css/objects/btn.css">
         <link rel="stylesheet" href="css/objects/subtitle.css">
+        <link rel="stylesheet" href="css/objects/label.css">
+        <link rel="stylesheet" href="css/objects/input.css">
         <link rel="stylesheet" href="css/components/container-cabecalho.css">
         <link rel="stylesheet" href="css/components/container-sections.css">
         <link rel="stylesheet" href="css/components/container-frases.css">
+        <link rel="stylesheet" href="css/components/form-contato.css">
     </head>
     <body>
         <header class="container-cabecalho">
@@ -93,13 +96,41 @@
             <section id="contato" class="container-sections">
                 <h2 class="subtitle">Contato</h2>
                 <form action="" class="form-contato">
-                    <label>Nome:</label>
-                    <input type="text" name="nome">
-                    <label>Email:</label>
-                    <input type="email" name="email">
-                    <label>Assunto:</label>
-                    <input type="text" name="assunto"><textarea name="mensagem">                </textarea>
+                    <div class="row">
+                        <div class="colum"> 
+                            <label class="lbl-form">Nome:</label>
+                            <input class="input-form" type="text" name="nome">
+                        </div>
+
+                        <div class="colum"> 
+                            <label class="lbl-form">Email:</label>
+                            <input class="input-form" type="email" name="email">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="colum"> 
+                            <label class="lbl-form">Assunto:</label>
+                            <input class="input-form" type="text" name="assunto">
+                        </div>
+
+                        <div class="colum"> 
+                            <label class="lbl-form">Mensagem</label>
+                            <textarea class="input-form mensagem" name="mensagem"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <button class="btn btn-contato">Enviar</button>
+                    </div>
                 </form>
+
+                <div class="info-contato">
+                    <span>(21)99999-9999 / (21)3333-3333</span>
+                    <span>Av. Logo Ali, 350, Loge pra caramba</span>
+                    <span>Rio de Janeiro RJ</span>
+                </div>
+
             </section>
         </header>
     </body>

@@ -1,0 +1,12 @@
+.input-form
+{
+    border: none;
+    color: #018dd5;
+    width: 74%;
+}
+
+.mensagem
+{
+    resize: none;
+    height: 16px;
+}
