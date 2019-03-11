@@ -1,7 +1,58 @@
 .container-footer
 {
     width: 100%;
-    height: 400px;
+    height: 200px;
     background: #018dd5;
     color: #fff;
+    position: relative;
+}
+
+.container-footer .links a
+{
+    color: inherit
+}
+
+.container-footer  .endereco
+{
+    width: 257px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.siganos
+{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container-footer .linkSociais:not(:last-child)
+{
+    margin-right: 10px;
+}
+
+.container-footer .iconSociais
+{
+    width: 24px;
+    height: 24px;
+}
+
+.links, .endereco, .sociais
+{
+    float: left;
+}
+
+.container-footer > .copyright
+{
+    position: absolute;
+    bottom: 0;
+    background: #006193;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container-footer > .copyright > .nomeFantasia
+{
+    text-transform: uppercase;
 }
