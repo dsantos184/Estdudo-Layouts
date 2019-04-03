@@ -1,0 +1,38 @@
+.wrap-menu
+{
+    float: right;
+}
+
+.btnMenu
+{
+    display: none;
+}
+
+.menu
+{
+    display: inline-block;
+}
+
+.menu > .item
+{
+    float: left;
+    font-size: 1.333em;
+}
+
+.menu > .item:not(:last-child)
+{
+    margin-right: 2.928vw;
+}
+
+@media(max-width:768px)
+{
+    .btnMenu
+    {
+        display: block;
+    }
+
+    .menu > .item
+    {
+        float: none;
+    }
+}
