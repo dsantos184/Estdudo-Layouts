@@ -6,6 +6,12 @@
 .btnMenu
 {
     display: none;
+    height: 24px;
+    width: 24px;
+    background-image: url(../../img/menu.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    text-indent: -9999px;
 }
 
 .menu
@@ -17,6 +23,7 @@
 {
     float: left;
     font-size: 1.333em;
+    text-transform: uppercase;
 }
 
 .menu > .item:not(:last-child)
@@ -24,15 +31,44 @@
     margin-right: 2.928vw;
 }
 
+.item > .action
+{
+    color: #34495e;
+}
+
+
 @media(max-width:768px)
 {
+    .wrap-menu
+    {
+        float: none;
+        width: 100%;
+    }
+
     .btnMenu
     {
         display: block;
+        float: right;
+    }
+
+    .menu
+    {
+        width: 100%;
     }
 
     .menu > .item
     {
         float: none;
+        background-color: #34495e;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #27ae60;
+        margin: 0 !important;
+        cursor: pointer;
+    }
+
+    .item > .action
+    {
+        color: #ecf0f1
     }
 }
