@@ -1,0 +1,9 @@
+.container-menu
+{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    position: fixed;
+    padding: 0 7%;
+    box-sizing: border-box;
+}

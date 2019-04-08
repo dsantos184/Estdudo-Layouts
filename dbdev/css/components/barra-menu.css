@@ -1,0 +1,17 @@
+.barra-menu
+{
+    float: right;
+}
+
+.barra-menu > .action:not(:last-child)
+{
+    margin-right: 20px;
+}
+
+.barra-menu > .action
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
