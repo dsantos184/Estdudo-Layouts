@@ -1,3 +1,4 @@
+
 .wrap-menu
 {
     float: right;
@@ -39,10 +40,15 @@
 
 @media(max-width:768px)
 {
+    body
+    {
+        overflow: hidden;
+    }
+
     .wrap-menu
     {
         float: none;
-        width: 100%;
+        width: 100%
     }
 
     .btnMenu
@@ -51,9 +57,16 @@
         float: right;
     }
 
+    .open
+    {
+        transform: translateX(0px) !important;
+    }
+
     .menu
     {
         width: 100%;
+        transform: translateX(120%) translateY(-120%);
+        transition: transform 200ms linear;
     }
 
     .menu > .item
