@@ -1,0 +1,13 @@
+.container-superior
+{
+    background-color: #333;
+    color: #B0BEC5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.container-superior a 
+{
+    color: inherit;
+}

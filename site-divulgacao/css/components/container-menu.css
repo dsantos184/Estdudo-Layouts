@@ -1,0 +1,37 @@
+.container-menu
+{
+    float: right;
+    font-size: 16px;
+}
+
+.container-menu > .actionMenu
+{
+    color: #455A64;
+    text-transform: uppercase;
+    float: left;
+}
+
+/*
+
+*/
+
+
+.container-menu > .actionMenu:not(:last-child)
+{
+    margin-right: 20px;
+}
+
+.container-menu > .actionMenu::after
+{
+    content: "";
+    background-color: #333;
+    display: block;
+    margin-top: 2px;
+    width: 1vw;
+    height: 2px;
+}
+
+.actionMenu:hover .actionMenu:hover:after
+{
+    background-color: red !important;
+}
