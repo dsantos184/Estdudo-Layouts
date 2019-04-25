@@ -2,6 +2,30 @@
 {
     padding: 10px;
     border: 1px solid #fff;
+    color: #fff;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 
+}
+
+.btn-saiba-mais
+{
+    background-color: #3498db;;
+    margin-right: 10px;
+}
+
+.btn-saiba-mais:hover
+{
+    background-color: #2980b9;
+}
+
+.btn-contato
+{
+    background-color: #e67e22;
+}
+
+.btn-contato:hover
+{
+    background-color: #d35400;
 }
