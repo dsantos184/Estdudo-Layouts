@@ -92,6 +92,19 @@
     }
 }
 
+@media(max-width:414px)
+{
+    .menuMobile
+    {
+        top: 110px;
+    }
+
+    .container-superior
+    {
+        display: none;
+    }
+}
+
 @media(min-width:768px)
 {
     .menuMobile
