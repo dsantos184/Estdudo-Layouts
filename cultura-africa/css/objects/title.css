@@ -1,0 +1,17 @@
+.title
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title:after
+{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: var(--color-zero);
+
+}

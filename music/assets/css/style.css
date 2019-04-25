@@ -1,0 +1,83 @@
+.containerCabecalho a
+{
+    color: #fff;
+}
+
+.containerCabecalho
+{
+    background: linear-gradient(117.44deg, #FFC900 4.93%, #FF8A00 101.08%);
+    width: 100%;
+    height:980px;
+    border-bottom-left-radius: 400px;
+    color: #fff;
+}
+
+.containerNav
+{
+    height: 101.72px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    /*position: absolute;
+    z-index: 100;*/
+}
+
+.logo
+{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 52px;
+    margin-left: 118px;
+    margin-right: 525px;
+}
+
+.containerMenu a
+{
+    margin-right: 35px;
+}
+
+.login
+{
+    background-color: #FCCB18;
+    padding: 7px 20px;
+    border-radius: 95px;
+}
+
+.containerQuadrados
+{
+    width: 551px;
+    transform: rotate(-28.62deg);
+    position: relative;
+    top: 9px;
+    left: -24px;
+}
+
+.quadrados
+{
+    width: 189px;
+    height: 189px;
+    background-color: rgba(252, 203, 24, 0.6);
+    display: inline-block;
+    margin: 20px;
+}
+
+.conatinerHeader
+{
+    position: absolute;
+}
+
+.containerDescHeader, .imgHeader
+{
+    float: left;
+}
+
+.containerDescHeader
+{
+    width: 592px;
+}
+
+.titleDescHeader
+{
+    font-size: 56px;
+    font-weight: bold;
+}

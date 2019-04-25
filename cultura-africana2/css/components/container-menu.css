@@ -1,0 +1,15 @@
+.container-menu
+{
+    float: right;
+}
+
+.container-menu > .action:not(:last-child)
+{
+    margin-right: 2.307vw;
+}
+
+.container-menu > .action
+{
+    font-size: 1.166em;
+    text-transform: uppercase;
+}

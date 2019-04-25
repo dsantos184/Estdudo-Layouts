@@ -1,0 +1,17 @@
+.container-menu
+{
+    float: right;
+}
+
+.container-menu > .action
+{
+    color: var(--color-zero);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.container-menu > .action:not(:last-child)
+{
+    margin-right: 10px;
+}

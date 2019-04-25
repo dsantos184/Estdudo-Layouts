@@ -1,0 +1,19 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal
+{
+    background-image: url(../../img/img-principal.png);
+    background-color: #0f0f0f;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}

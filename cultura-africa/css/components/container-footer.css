@@ -1,0 +1,18 @@
+.container-footer
+{
+    position: absolute;
+    bottom: 20px;
+    color: var(--color-zero);
+}
+
+.container-footer > .corpyright
+{
+    font-size: 12px;
+}
+
+.container-footer .empresa
+{
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}

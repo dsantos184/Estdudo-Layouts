@@ -1,0 +1,13 @@
+.container-cabecalho
+{
+    height: 40px;;
+}
+.container-cabecalho > .logo
+{
+    font-family: 'Lobster', sans-serif;
+    text-decoration: none;
+    color: #f2df0f;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+}

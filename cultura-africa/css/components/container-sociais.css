@@ -1,0 +1,19 @@
+.container-sociais
+{
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+}
+
+.container-sociais > .sociais:not(:last-child)
+{
+    margin-bottom: 15px;
+}
+
+.container-sociais .icon
+{
+    width: 18px;
+    height: 18px;
+}

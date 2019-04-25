@@ -1,0 +1,8 @@
+.container-header > .logo
+{
+    font-family: 'Lobster', sans-serif;
+    color: #f2df0f;
+    font-weight: bold;
+    font-size: 2em;
+    float: left;
+}
