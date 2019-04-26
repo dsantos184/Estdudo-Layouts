@@ -1,0 +1,23 @@
+.container-como-trabalhamos
+{
+    padding: 0 10%;
+    margin: 50px 0;
+}
+
+.title-section
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.title-section::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: #3498db;
+    margin-top: 2px;
+}
