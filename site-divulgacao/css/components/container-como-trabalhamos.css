@@ -9,7 +9,7 @@
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .title-section::after
@@ -20,4 +20,46 @@
     display: block;
     background-color: #3498db;
     margin-top: 2px;
+}
+
+.coluna
+{
+    width: 48%;
+    float: left;
+}
+
+.coluna:not(:last-child)
+{
+    margin-right: 15px;
+}
+
+.linha
+{
+    height: 90px;
+}
+
+.linha:not(:last-child)
+{
+    margin-bottom: 30px;
+}
+
+.icon-trabalhamos
+{
+    float: left;
+    color: #3498db;
+    font-size: 22px;
+}
+
+.titulo-como-trabalhamos
+{
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.descricao-como-trabalhamos
+{
+    clear: both;
 }
