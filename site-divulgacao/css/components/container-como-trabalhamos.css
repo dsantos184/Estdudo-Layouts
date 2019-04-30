@@ -55,6 +55,7 @@
 {
     font-size: 18px;
     font-weight: bold;
+    text-transform: uppercase;
     float: left;
     margin-left: 15px;
     margin-bottom: 10px;
@@ -63,4 +64,35 @@
 .descricao-como-trabalhamos
 {
     clear: both;
+}
+
+@media(max-width:762px)
+{
+    .container-como-trabalhamos
+    {
+        padding: 0 15px;
+    }
+
+    .coluna:not(:last-child)
+    {
+        margin-right: 25px;
+    }
+}
+
+@media(max-width:730px)
+{
+    .coluna
+    {
+        width: 100%;
+    }
+
+    .descricao-como-trabalhamos
+    {
+        font-size: 17px;
+    }
+
+    .linha
+    {
+        margin-bottom: 30px;
+    }
 }
