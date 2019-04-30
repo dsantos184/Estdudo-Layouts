@@ -57,3 +57,58 @@
     text-align: center;
     font-size: 13px;
 }
+
+@media(max-width: 762px)
+{
+    .container-footer
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container-links
+    {
+        flex-direction: column;
+    }
+
+    .list-link-footer:not(:last-child)
+    {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .dados-contato
+    {
+        text-align: center;
+    }
+   
+    .pages
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pages > .item-link-footer:not(:last-child)
+    {
+        margin-right: 15px;
+    }
+
+    .midias-sociais
+    {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 375px)
+{
+   .pages
+   {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .pages > .item-link-footer
+   {
+       margin-right: 0px !important;
+   }
+}
