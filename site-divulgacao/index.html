@@ -98,7 +98,7 @@
             </section>
 
             <section class="container-quadros">
-                <article class="quadros">
+                <article class="quadros midias">
                     <i class="fas fa-share-alt-square quadros-icon"></i>
                     <h2 class="titulo-quadros">Peças para Mídias Sociais</h2>
                     <p class="descricao-quadros">
@@ -109,7 +109,7 @@
                     <a href="#" class="btn btn-saiba-mais">Saiba Mais</a>
                 </article>
 
-                <article class="quadros">
+                <article class="quadros sites">
                     <i class="fas fa-code quadros-icon"></i>
                     <h2 class="titulo-quadros">Sites Profissionais</h2>
                     <p class="descricao-quadros">
@@ -121,7 +121,7 @@
                     <a href="#" class="btn btn-saiba-mais">Saiba Mais</a>
                 </article>
 
-                <article class="quadros">
+                <article class="quadros impresso">
                     <i class="fas fa-layer-group quadros-icon"></i>
                     <h2 class="titulo-quadros">Arte de Material Impresso</h2>
                     <p class="descricao-quadros">
@@ -245,5 +245,35 @@
         </footer>
         
         <script src="/js/menu-mobile.js"></script>
+        <script>
+            const titulo = document.querySelector('.tituloPrincipal')
+            const fade = document.querySelector('.fade')
+
+
+            if( fade === null )
+            {
+                titulo.classList.add('fade')
+            }
+            else
+            {
+                titulo.classRemove.add('fade')
+            }
+
+            const texto = document.querySelector('.frase')
+            const deslizar = document.querySelector('.deslizar-texto')
+
+            if( deslizar === null )
+            {
+                texto.classList.add('deslizar-texto')
+            }
+            else
+            {
+                texto.classRemove.add('deslizar-texto')
+            }
+
+
+
+
+        </script>
     </body>
 </html>
