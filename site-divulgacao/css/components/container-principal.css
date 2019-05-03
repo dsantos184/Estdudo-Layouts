@@ -33,29 +33,12 @@
     font-size: 16px;
     margin-top: 10px;
     display: block;
-    transform:translateX(-100%)
 }
-
-.deslizar-texto
-{
-    transform:translateX(0px);
-    transition: transform 0.5s linear
-}
-
-
 
 .tituloPrincipal
 {
     font-size: 64px;
     font-weight: bold;
-    opacity: 0;
-}
-
-/*Aplica efeito de fade no texto*/
-.fade
-{
-    opacity: 1;
-    transition: opacity 2s linear 
 }
 
 .container-quadros
