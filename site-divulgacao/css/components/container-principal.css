@@ -59,15 +59,7 @@
     -webkit-box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.75);
-    /*transform: translateY(-1000%)*/
 }
-
-/*.mostrar-quadros
-{
-    transform: translateY(0px);
-    transition: transform 0.5s linear;
-}*/
-
 
 .container-quadros > .quadros:not(:last-child)
 {

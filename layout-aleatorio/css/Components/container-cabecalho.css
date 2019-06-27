@@ -1,0 +1,44 @@
+.container-principal
+{
+    margin-top: 119.567px;
+}
+
+.container-cabecalho
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.6);
+    padding: 1%;
+    position: fixed;
+    transition: 1s
+}
+
+.container-cabecalho >
+.container-menu
+{
+    color: #333;
+    font-size: 1.125em;
+}
+
+.container-cabecalho >
+.container-menu >
+.action
+{
+    text-transform: uppercase;
+}
+
+.container-cabecalho >
+.container-menu >
+.action:hover
+{
+   text-decoration: underline;
+}
+
+.container-cabecalho >
+.container-menu >
+.action:not(:last-child)
+{
+    margin-right: 1.966vw;
+}
