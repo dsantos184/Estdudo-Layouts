@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: consolas
+}
+
+
+
+.container-menu
+{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    text-align: right;
+}
+
+.list-menu
+{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.action-menu
+{
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block
+}
+
+.container-menu .action-menu:hover,
+section#section01:hover ~ .container-menu .action-menu[href="#section01"],
+section#section02:hover ~ .container-menu .action-menu[href="#section02"],
+section#section03:hover ~ .container-menu .action-menu[href="#section03"],
+section#section04:hover ~ .container-menu .action-menu[href="#section04"]
+{
+    background-color: #fff;
+    color: #333;
+}
+
+.container-section
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

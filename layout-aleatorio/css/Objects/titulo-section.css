@@ -1,0 +1,23 @@
+.titulo-section {
+    font-size: 1.375em;
+    text-align: center;
+    text-transform: uppercase;
+    /*margin-bottom: 30px;*/
+}
+
+.titulo-section::after,
+.titulo-section::before {
+    content: '';
+    display: inline-block;
+    width: 45%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.titulo-section::after {
+    margin-left: 2%;
+}
+
+.titulo-section::before {
+    margin-right: 2%;
+}
