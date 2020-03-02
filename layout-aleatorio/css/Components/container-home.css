@@ -1,5 +1,4 @@
-.container-section
-{
+.container-section {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -9,43 +8,36 @@
     transition: 1s;
 }
 
-.container-home >  .content
-{
+.container-home>.content {
     text-align: center;
     border: 1px solid #fff;
     padding: 10%;
     box-sizing: border-box;
 }
 
-.container-home >  .content > .titulo-home
-{
+.container-home>.content>.titulo-home {
     font-weight: 700;
     font-size: 52px;
 }
 
-.container-home > .content > .subtitulo-home
-{
+.container-home>.content>.subtitulo-home {
     font-size: 1.375em;
 }
 
-.content
-{
+.content {
     width: 90%;
 }
 
-.container-sobre
-{
+.container-sobre {
     position: relative;
 }
 
-.container-section > .content-sobre
-{
+.container-section>.content-sobre {
     background-color: #060c21;
     padding: 10%;
 }
 
-.content-sobre::after
-{
+.content-sobre::after {
     display: block;
     content: '';
     position: absolute;
